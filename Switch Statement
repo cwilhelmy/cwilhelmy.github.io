@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<BUTTON type="button" value="Change Color" onClick="ChangeColor()"> Click me!</button> 
+<script>
+document.body.style.backgroundColor = "green";
+
+function ChangeColor() {
+switch(document.body.style.backgroundColor) {
+
+	case "green":  document.body.style.backgroundColor  = "black";
+		break;
+	case "black": document.body.style.backgroundColor  = "white";
+		break;
+	case "white": document.body.style.backgroundColor  = "blue";
+		break;
+	case "blue":  document.body.style.backgroundColor  = "green";
+
+}
+}
+</script>
+</body>
+</html>
+
